@@ -1,4 +1,6 @@
---// Services
+wait(25)
+
+-// Services
 local remote = game:GetService("ReplicatedStorage")["Game.Properties"].ClientEvent
 local player = game.Players.LocalPlayer
 local shotMeterValue = workspace[player.Name].Properties:WaitForChild("ShotMeter")
