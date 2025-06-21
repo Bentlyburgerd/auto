@@ -1,4 +1,4 @@
-task.wait(10)
+wait(15)
 
 -// Services
 local remote = game:GetService("ReplicatedStorage")["Game.Properties"].ClientEvent
